@@ -1,0 +1,47 @@
+.courses-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 13rem;
+    margin-bottom: 13rem;
+  }
+  
+  .courses-content {
+    width: 30%;
+  }
+  
+  .courses-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+  }
+  
+  .typing-animation {
+    color: purple;
+  }
+  
+  .courses-content p {
+    padding-top: 1rem;
+  }
+  
+  .courses-image img {
+    width: 700px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .courses-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .courses-content {
+      width: 80%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    .courses-image img {
+      width: 100%;
+    }
+  }
+  
